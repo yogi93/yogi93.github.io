@@ -1,0 +1,12 @@
+@media all and (max-width: 260px) {
+	.container {
+		padding: 0 3px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.cand {
+		width: 94%;
+	}
+
+}

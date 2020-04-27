@@ -1,0 +1,57 @@
+/* Untuk Desktop */
+@media all and (min-width: 1000px) {
+  .top-wrapper h1{
+    font-size: 36px;
+  }
+  .dropdown {
+    visibility: hidden;
+    display: inline;
+  }	
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+  .dropdown {
+  	display: inline;
+    visibility: hidden;
+    width: 150px;
+  	text-align: right;
+  }	
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  .dropdown{
+    display: inline;
+    visibility: visible;
+    width: 150px;
+  	text-align: right;
+  }
+
+}
+
+@media all and (max-width: 500px) {
+  .header-right {
+    display: none;
+  }
+  .cand {
+    width: 94%;
+  }
+
+}
+
+@media all and (max-width: 260px) {
+  .header-right {
+    display: none;
+  }
+  .container {
+    padding: 0 3px;
+  }
+}
+
