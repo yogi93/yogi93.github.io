@@ -1,0 +1,136 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+/*@font-face {
+   font-family: 'VT323';
+   src: url('font/VT323-Regular');
+   src: url('font/VT323-Regular.eot?#iefix') format('embedded-opentype'),
+   url('font/VT323-Regular.woff') format('woff'),
+   url('font/VT323-Regular.ttf') format('truetype'),
+   url('font/VT323-Regular.svg') format('svg');
+}*/
+
+body {
+  font-family: "Corbel";
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 48px;
+  width: 100%;
+  background-color: #95389e;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  color: white;
+  font-family: "Agency FB";
+  font-size: 28px;
+}
+
+.header-left {
+  float: left;
+  line-height: 50px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 30px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 19px 0;
+  display: none;
+  cursor: pointer;
+}*/
+
+/*.menu-icon:hover{
+  color: rgba(255, 255, 255, 0.3);
+}*/
+
+.dropbtn {
+  /*background-color: #4CAF50;*/
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.dropbtn:hover{
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 150px;
+  text-align: right;
+  padding-right: 10px;
+}
